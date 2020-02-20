@@ -1,0 +1,33 @@
+html,body{
+	height:100%;
+}
+body{
+	background: radial-gradient(ellipse at center, rgba(210,255,82,0.95) 0%, rgba(202,248,69,0.95) 14%, rgba(182,230,39,0.97) 47%, rgba(145,232,66,1) 100%);
+}
+h1{
+	color:white;
+	font-family: 'Dancing Script', cursive;
+	letter-spacing:0.1em;
+	text-align:center;
+	text-shadow:0 0 0.5em black;
+}	
+.galeria{
+	/*border:solid;*/
+	display:flex;
+	justify-content:space-around;
+	margin:0 auto;
+	width:80%;
+}
+.galeria div{
+	filter: grayscale(1);
+}
+.galeria img{
+	width:200px;
+	height:200px;
+}
+.galeria div:hover{
+	filter: grayscale(0);
+}
+
+
+
